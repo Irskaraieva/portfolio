@@ -9,11 +9,11 @@ const Computers = () => {
   return (
     <mesh>
       <hemisphereLight intensity={1} groundColor='black' />
-      <pointLight intensity={1} />
+      <pointLight intensity={.7} />
       <spotLight
-        intensity={1}
-        position={[-20, 50, 50]}
-        angle={0.12}
+        intensity={300}
+        position={[1, 8, 4]}
+        angle={1}
         penumbra={1}
         castShadow
         shadow-mapSize={1024}
