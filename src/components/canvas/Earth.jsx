@@ -23,8 +23,6 @@ const Earth = () => {
         rotation-y={0}
       />
     </mesh>
-
-
   )
 }
 
