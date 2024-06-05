@@ -2,18 +2,16 @@ import {
     mobile,  
     creator,
     web,
+    bulma,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
+    sass,
     git,
     figma,
-    docker,
     education,
     content,
     teacher,
@@ -21,7 +19,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -68,32 +65,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Sass",
+      icon: sass,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "Bulma CSS",
+      icon: bulma,
     },
     {
       name: "git",
@@ -102,10 +87,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -213,7 +194,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "bulma",
           color: "green-text-gradient",
         },
         {
