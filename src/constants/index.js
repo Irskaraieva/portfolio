@@ -1,6 +1,5 @@
 import {
-    mobile,
-    backend,
+    mobile,  
     creator,
     web,
     javascript,
@@ -15,10 +14,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    education,
+    content,
+    teacher,
+    personal,
     carrent,
     jobit,
     tripguide,
@@ -42,16 +41,12 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
       title: "React Developer",
-      icon: mobile,
+      icon: reactjs,
     },
     {
       title: "Front-End Developer",
-      icon: backend,
+      icon: mobile,
     },
     {
       title: "Content Creator",
@@ -116,57 +111,68 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Content Manager, Copywriter",
+      company_name: "Freelance, Vinnytsya, Ukraine",
+      icon: content,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2016 - May 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Search and edit product photos.",
+        "Rewriting of product descriptions.",
+        "Filling online stores with content through the management system.",
+        "Copywriting of texts on various topics.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Teacher of Physics and Astronomy",
+      company_name: "Medical College, Mykolayiv, Ukraine",
+      icon: teacher,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2013 - Aug 2014",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducting lectures and practical classes.",
+        "Creating presentations, working with text documents.",
+        "Maintenance of methodical documentation.",
+        "Curator of the group.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Accountant",
+      company_name: "Techniques & Technologies, Mykolayiv, Ukraine",
+      icon: personal,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2013 - Mar 2013",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Making payments through client banks.",
+        "Registering the company's financial transactions in the accounting program.",
+        "Analyzing the state of accounts and choosing the appropriate account for carrying out certain financial transactions.",
+        "Participating in financial reporting.",
+      ],
+    },
+    {
+      title: "Teacher of Physics",
+      company_name: "Secondary School, Odesa, Ukraine",
+      icon: teacher,
+      iconBg: "#E6DEDD",
+      date: "Sep 2007 - Sep 2012",
+      points: [
+        "Conducting theoretical and practical lessons.",
+        "Maintenance of methodical documentation.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "My Education",
+      company_name: "South Ukrainian National Pedagogical University named after K. D. Ushynsky, Odesa, Ukraine",
+      icon: education,
+      iconBg: "#E6DEDD",
+      date: "Sep 2002 - Sep 2007",
+      points: [
+        "Degree: Master's degree",
+        "Specialization: Teacher of physics, informatics and basics of life safety"
+      ],
+    },    
   ];
   
   const testimonials = [
