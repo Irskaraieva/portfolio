@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Iryna</span></h1>
+          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Ira</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user-friendly responsive pages.<br />
             I prefer custom styles, but I also use frameworks like Bulma, Tailwind.
