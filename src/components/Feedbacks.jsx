@@ -15,13 +15,13 @@ const Feedbacks = () => {
       </div>
 
       <motion.div variants={textVariant()} className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        <a href="https://github.com/Irskaraieva" className="w-[30%] flex justify-center">
+        <a href="https://github.com/Irskaraieva" className="flex-grow flex justify-center">
           <img src={github} className="h-12 w-12" />
         </a>
-        <a href="https://www.linkedin.com/in/iryna-skaraieva-84832a279/" className="w-[30%] flex justify-center">
+        <a href="https://www.linkedin.com/in/iryna-skaraieva-84832a279/" className="flex-grow flex justify-center">
           <img src={linkedin} className="h-12 w-12" />
         </a>
-        <a href="https://www.facebook.com/irina.skaraeva/" className="w-[30%] flex justify-center">
+        <a href="https://www.facebook.com/irina.skaraeva/" className="flex-grow flex justify-center">
           <img src={facebook} className="h-12 w-12" />
         </a>
       </motion.div>
