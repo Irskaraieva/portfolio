@@ -10,6 +10,8 @@ import {
     reactjs,
     tailwind,
     sass,
+    vite,
+    gulp,
     git,
     figma,
     education,
@@ -87,6 +89,14 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "Gulp",
+      icon: gulp,
+    },
+    {
+      name: "Vite",
+      icon: vite,
     },
   ];
   

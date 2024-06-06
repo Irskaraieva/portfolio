@@ -15,6 +15,8 @@ import bulma from "./tech/bulma.svg";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import sass from "./tech/sass.png";
+import vite from "./tech/vite.png";
+import gulp from "./tech/gulp.png";
 import typescript from "./tech/typescript.png";
 
 import education from "./company/education.png";
@@ -41,6 +43,8 @@ export {
   javascript,
   bulma,
   reactjs,
+  vite,
+  gulp,
   tailwind,
   sass,
   typescript,
