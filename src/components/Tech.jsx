@@ -1,9 +1,8 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { styles } from '../styles';
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 
 const Tech = () => {
   return (
@@ -12,14 +11,11 @@ const Tech = () => {
         <p className={styles.sectionSubText}>Technologies that I got acquainted with</p>
         <h2 className={styles.sectionHeadText}>On the way to web development</h2>
       </motion.div>
-      <div className='flex flex-row flex-wrap justify-center gap-10 mt-6'>
+      <div className='flex flex-row flex-wrap justify-center gap-10 mt-12'>
         {technologies.map((technology) => (
-          <div className='bg-tertiary rounded-lg p-3 border-blue-600' key={technology.name}>
-            {/* <BallCanvas icon={technology.icon} /> */}
-            
-              <img src={technology.icon} className="object-cover w-20 h-20"/>
-           
-          </div>
+          <motion.div variants={fadeIn("up", "spring", 0.6, 0.7)} className='bg-tertiary rounded-lg p-3 border-blue-600' key={technology.name}>
+              <img src={technology.icon} className="object-cover w-20 h-20"/>           
+          </motion.div>
         ))}
       </div>
     </>

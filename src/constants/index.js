@@ -21,6 +21,12 @@ import {
     carrent,
     jobit,
     tripguide,
+    abri,
+    coralShop,
+    interiour,
+    interiourGulp,
+    blinqpay,
+    reactFun
   } from "../assets";
   
   export const navLinks = [
@@ -195,67 +201,138 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Responsive Landing",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Adaptive landing of the site on the Gulp. Implemented the appearance of the header when scrolling up, the mobile menu, the animation of the appearance using javascript code.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "bulma",
+          name: "SCSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
+          color: "text-red-300",
+        },
+        {
+          name: "Gulp",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: abri,
+      source_code_link: "https://irskaraieva.github.io/abri/",
     },
     {
-      name: "Job IT",
+      name: "Landing page from Figma",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        "Conversion of design from Figma. Product filtering, the effect of the appearance of elements and the rotation of the card when hovering is implemented using custom style code and javascript. Swiper is used for the slider.",
+        tags: [
+          {
+            name: "HTML",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "CSS",
+            color: "green-text-gradient",
+          },
+          {
+            name: "JavaScript",
+            color: "text-red-300",
+          },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: coralShop,
+      source_code_link: "https://irskaraieva.github.io/coral-shop/",
     },
     {
-      name: "Trip Guide",
+      name: "SPA with React",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Responsive SPA built with React. Realized registration using Firebase. There is a page of all products, a separate product page, a product filter, a page with a working shopping cart. Sliders on the main page. Product search is implemented on the page by the name entered by the user in the search field. The header has an additional product filter by brand and price range, which opens as a mobile menu.",
       tags: [
         {
-          name: "nextjs",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: interiour,
+      source_code_link: "https://irskaraieva.github.io/interiour/",
+    },
+    {
+      name: "Landing from Figma",
+      description:
+        "Conversion of design from Figma. Developed main page, product page, shopping cart, registration page. The product filter works on the main page",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gulp",
+          color: "text-red-500",
+        },
+      ],
+      image: interiourGulp,
+      source_code_link: "https://irskaraieva.github.io/interiour-gulp/",
+    },
+    {
+      name: "Landing from Figma",
+      description:
+        "Conversion of design from Figma. Only custom javascript and styles",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blinqpay,
+      source_code_link: "https://irskaraieva.github.io/blinqpay/",
+    },
+    {
+      name: "SPA with React",
+      description:
+        "SPA | React - React Hook Form with ZOD - React Authentication With Firebase And Routing - Axios",    
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reactFun,
+      source_code_link: "https://irskaraieva.github.io/react-fun/",
     },
   ];
   

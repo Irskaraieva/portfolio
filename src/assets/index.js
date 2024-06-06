@@ -27,6 +27,14 @@ import teacher from "./company/teacher.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import abri from "./abri.png";
+import coralShop from "./coralshop.png";
+import interiour from "./interiour.png";
+import interiourGulp from "./interiour-gulp-1.png";
+import blinqpay from "./blinqpay.png";
+import reactFun from "./react-fun.png";
+import linkedin from "./linkedin.png";
+import facebook from "./facebook.png";
 
 export {
   logo,  
@@ -55,4 +63,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  abri,
+  coralShop,
+  interiour,
+  interiourGulp,
+  blinqpay,
+  reactFun,
+  linkedin,
+  facebook
 };

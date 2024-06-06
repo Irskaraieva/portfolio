@@ -25,14 +25,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 <div 
                   onClick={() => window.open
                   (source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex  justify-center items-center cursor-pointer"
+                  className=" w-10 h-10 rounded-full flex  justify-center items-center cursor-pointer"
                   >
                     <img
                       src={github}
                       alt="github"
-                      className="w-1/2 h-1/2 object-contain"
+                      className="w-full h-full object-contain"
                     />
-
                 </div>
               </div>
           </div>
@@ -46,7 +45,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 #{tag.name}
               </p>
             ))}
-
           </div>
       </Tilt>
     </motion.div>
@@ -64,10 +62,10 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, ducimus. Nesciunt natus voluptatum rerum at. Reiciendis sint quisquam enim consectetur voluptates? Consectetur ea praesentium ullam blanditiis inventore corrupti at quos!
+          Below you will find links to some of my works on github.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7  justify-center">
         {
           projects.map((project, index) => (
             <ProjectCard 
