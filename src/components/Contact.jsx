@@ -27,8 +27,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-      'service_a7f63hc', 
-      'template_3knwsa8',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Iryna',
@@ -37,7 +37,7 @@ const Contact = () => {
         to_email: 'mishytkina14@gmail.com',
         message: form.message,
       },
-      'XULCASJanzhSo8gV8'
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
    ).then(() => {
     setLoading(false);
     alert('Thank you, message sent! I will answer you soon!');
