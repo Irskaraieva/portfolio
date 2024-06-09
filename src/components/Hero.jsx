@@ -5,7 +5,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto bg-gradient-to-b from-primary/60 to-primary bg-top'
+    <section className='relative w-full h-screen mx-auto'
     >
       <div className={`${styles.paddingX} absolute inset-0 top-[140px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justyfy-center items-center mt-5'>

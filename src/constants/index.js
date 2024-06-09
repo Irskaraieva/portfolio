@@ -125,7 +125,7 @@ import {
       company_name: "Medical College, Mykolayiv, Ukraine",
       icon: teacher,
       iconBg: "#E6DEDD",
-      date: "Jan 2013 - Aug 2014",
+      date: "Jan 2014 - Aug 2015",
       points: [
         "Conducting lectures and practical classes.",
         "Creating presentations, working with text documents.",
