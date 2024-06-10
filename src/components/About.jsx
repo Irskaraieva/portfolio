@@ -43,7 +43,7 @@ const About = () => {
       <motion.p 
       variants={fadeIn("", "", 0.1, 1)} 
       className="mt-4 text-secondary text-[17] max-w-3xl leading-[30px]">
-      I'm a Front-End Developer with a knack for creating responsive user interfaces, skilled in React. Proposals for cooperation with technologies that need to be studied are welcome!
+      I'm a Front-End Developer with a knack for creating responsive user interfaces, skilled in React. Although I prefer custom styles, frameworks like Bulma and Tailwind are also in my toolkit.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
