@@ -54,7 +54,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Content Creator",
+      title: "Content Manager",
       icon: creator,
     },
   ];
