@@ -154,9 +154,7 @@ import {
       date: "Sep 2007 - Sep 2012",
       points: [
         "Conducting theoretical and practical lessons.",
-        "Maintenance of methodical documentation.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintenance of methodical documentation."        
       ],
     },
     {
