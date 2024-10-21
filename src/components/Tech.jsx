@@ -12,8 +12,8 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>On the way to web development</h2>
       </motion.div>
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-12'>
-        {technologies.map((technology) => (
-          <motion.div variants={fadeIn("up", "spring", 0.6, 0.7)} className='bg-tertiary rounded-lg p-3 border-blue-600' key={technology.name}>
+        {technologies.map((technology, index) => (
+          <motion.div variants={fadeIn("up", "spring",  0.2 + index * 0.2, 0.7)} className='bg-tertiary rounded-lg p-3 border-blue-600' key={technology.name}>
               <img src={technology.icon} className="object-cover w-20 h-20"/>           
           </motion.div>
         ))}
