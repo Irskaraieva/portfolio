@@ -7,6 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 import { AlwaysDepth } from "three";
+import { github, linkedin, facebook } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -61,7 +62,18 @@ const Contact = () => {
         <p className={styles.sectionSubText}>
           Get in touch
         </p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className={`mt-5 pb-6 flex flex-wrap gap-7`}>
+            <a href="https://github.com/Irskaraieva" className="flex-grow flex justify-center">
+              <img src={github} className="h-10 w-10" />
+            </a>
+            <a href="https://www.linkedin.com/in/iryna-skaraieva-84832a279/" className="flex-grow flex justify-center">
+              <img src={linkedin} className="h-10 w-10" />
+            </a>
+            <a href="https://www.facebook.com/irina.skaraeva/" className="flex-grow flex justify-center">
+              <img src={facebook} className="h-10 w-10" />
+            </a>
+        </div>
+        <h3 className={styles.sectionHeadText}>Contact by email:</h3>        
         <form
           ref={formRef}
           onSubmit={handleSubmit}
