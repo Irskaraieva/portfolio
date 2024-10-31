@@ -62,7 +62,14 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Below you will find links to some of my works on github.
+          Below you will find links to some of my works on &#32;
+          <a 
+            href="https://github.com/Irskaraieva" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-blue-500 underline">
+            GitHub
+          </a>.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7  justify-center">
