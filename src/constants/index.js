@@ -108,16 +108,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Content Manager, Copywriter",
+    title: "Content Manager",
     company_name: "Freelance, Vinnytsya, Ukraine",
     icon: content,
     iconBg: "#383E56",
     date: "Feb 2016 - May 2017",
     points: [
-      "Search and edit product photos.",
-      "Rewriting of product descriptions.",
-      "Filling online stores with content through the management system.",
-      "Copywriting of texts on various topics.",
+      "Researched and edited photos and product descriptions to optimize content for online stores.",
+      "Managed content updates, gaining experience in web content structuring and user experience—valuable for frontend development.",
     ],
   },
   {
@@ -127,10 +125,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2014 - Aug 2015",
     points: [
-      "Conducting lectures and practical classes.",
-      "Creating presentations, working with text documents.",
-      "Maintenance of methodical documentation.",
-      "Curator of the group.",
+      "Created educational materials (presentations, interactive content), building skills in design and multimedia.",
+      "Managed large amounts of information, enhancing analytical skills and attention to detail.",
+      "Developed instructional documentation, useful for code organization and documentation in IT.",
+      "Supervised student groups, refining communication and teamwork abilities.",
     ],
   },
   {
@@ -140,10 +138,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2013 - Mar 2013",
     points: [
-      "Making payments through client banks.",
-      "Registering the company's financial transactions in the accounting program.",
-      "Analyzing the state of accounts and choosing the appropriate account for carrying out certain financial transactions.",
-      "Participating in financial reporting.",
+      "Processed financial transactions and records, requiring data accuracy and attention to detail.",
+      "Handled large datasets for reporting, building analytical thinking relevant in software development.",
+      "Adapted to new software, showing flexibility and a quick learning curve for new tools.",
     ],
   },
   {
@@ -153,8 +150,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2007 - Sep 2012",
     points: [
-      "Conducting theoretical and practical lessons.",
-      "Maintenance of methodical documentation."
+      "Developed and delivered educational content, including presentations and interactive materials, enhancing skills in design and multimedia work.",
+      "Created methodological materials and documentation, improving the ability to organize information — a useful skill for handling code and documentation in IT."
     ],
   },
   {
