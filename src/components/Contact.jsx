@@ -6,7 +6,6 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
-import { AlwaysDepth } from "three";
 import { github, linkedin, facebook } from "../assets";
 
 const Contact = () => {
