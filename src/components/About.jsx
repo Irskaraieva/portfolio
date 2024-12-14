@@ -42,8 +42,9 @@ const About = () => {
       </motion.div>     
       <motion.p 
       variants={fadeIn("", "", 0.1, 1)} 
-      className="mt-4 text-secondary text-[17] max-w-3xl leading-[30px]">
-      I'm a Front-End Developer with a knack for creating responsive user interfaces, skilled in React. Although I prefer custom styles, frameworks like Bulma and Tailwind are also in my toolkit.
+      className="mt-4 text-secondary text-[17] max-w-4xl leading-[30px]">
+          I'm a Front-End Developer transitioning into IT after many years of working in education. My teaching experience has equipped me with strong analytical skills, problem-solving abilities, and teamwork capabilities.<br />
+          With a foundation in JavaScript, React and HTML/CSS, I focus on crafting functional, visually appealing web applications to enhance user experiences.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

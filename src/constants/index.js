@@ -108,14 +108,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Private Tutor",
+    company_name: "Self-Employed, Remote",
+    icon: teacher,
+    iconBg: "#E6DEDD",
+    date: "Feb 2020 - Mar 2024",
+    points: [
+      "Managed the educational process for a home-schooled student.",
+      "Provided individual tutoring in mathematics, tailored to the unique needs and learning styles.",
+      "Individual preparation for exams.",
+    ],
+  },
+  {
     title: "Content Manager",
     company_name: "Freelance, Vinnytsya, Ukraine",
     icon: content,
     iconBg: "#383E56",
     date: "Feb 2016 - May 2017",
     points: [
-      "Researched and edited photos and product descriptions to optimize content for online stores.",
-      "Managed content updates, gaining experience in web content structuring and user experience—valuable for frontend development.",
+      "Editing and managing website content using the Content Management System.",
+      "Strict compliance with requirements and deadlines.",
     ],
   },
   {
@@ -125,10 +137,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2014 - Aug 2015",
     points: [
-      "Created educational materials (presentations, interactive content), building skills in design and multimedia.",
-      "Managed large amounts of information, enhancing analytical skills and attention to detail.",
-      "Developed instructional documentation, useful for code organization and documentation in IT.",
-      "Supervised student groups, refining communication and teamwork abilities.",
+      "Created educational materials, building skills in multimedia.",
+      "Developed instructional documentation.",
+      "Supervised student groups.",
     ],
   },
   {
@@ -138,9 +149,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2013 - Mar 2013",
     points: [
-      "Processed financial transactions and records, requiring data accuracy and attention to detail.",
-      "Handled large datasets for reporting, building analytical thinking relevant in software development.",
-      "Adapted to new software, showing flexibility and a quick learning curve for new tools.",
+      "Processed financial transactions with accuracy and attention to detail, managed large datasets, enhancing analytical skills.",
+      "Adapted to new software, proving flexibility and fast learning.",
     ],
   },
   {
@@ -151,7 +161,7 @@ const experiences = [
     date: "Sep 2007 - Sep 2012",
     points: [
       "Developed and delivered educational content, including presentations and interactive materials, enhancing skills in design and multimedia work.",
-      "Created methodological materials and documentation, improving the ability to organize information — a useful skill for handling code and documentation in IT."
+      "Created methodological materials and documentation, improving the ability to organize information."
     ],
   },
   {
