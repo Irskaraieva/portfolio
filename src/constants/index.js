@@ -143,17 +143,6 @@ const experiences = [
     ],
   },
   {
-    title: "Accountant",
-    company_name: "Techniques & Technologies, Mykolayiv, Ukraine",
-    icon: personal,
-    iconBg: "#E6DEDD",
-    date: "Jan 2013 - Mar 2013",
-    points: [
-      "Processed financial transactions with accuracy and attention to detail, managed large datasets, enhancing analytical skills.",
-      "Adapted to new software, proving flexibility and fast learning.",
-    ],
-  },
-  {
     title: "Teacher of Physics",
     company_name: "Secondary School, Odesa, Ukraine",
     icon: teacher,
